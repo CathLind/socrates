@@ -1,0 +1,38 @@
+name: InkopsFroums theme files
+type: theme
+description: This is the theme for InkopsForum, a subtheme for Aristotle
+core_version_requirement: ^9 | ^10
+# Defines the base theme
+base theme: aristotle
+# Defines libraries group in which we can add css/js.
+libraries:
+  - socrates/global
+
+# Regions
+regions:
+  help: 'Help'
+  branding: 'Branding'
+  menu: 'Menu'
+  admin_opigno: 'Admin opigno menu'
+  status_messages: 'Status messages'
+  featured_white: 'Featured white'
+  featured_top: 'Featured top'
+  top: 'Top'
+  sidebar_second: 'Sidebar second'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  featured_bottom_first: 'Featured bottom first'
+  featured_bottom_second: 'Featured bottom second'
+  featured_bottom_third: 'Featured bottom third'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+  footer_fourth: 'Footer fourth'
+  footer: 'Footer'
+
+  
+libraries-override:
+  aristotle/global-styling:
+    css:
+      theme:
+        css/main.css: css/main.css
