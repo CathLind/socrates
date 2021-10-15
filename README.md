@@ -1,2 +1,2 @@
-# inkopstheme
-The main theme for InköpsForum
+# Socrates
+The main theme for InköpsForum e-learning
