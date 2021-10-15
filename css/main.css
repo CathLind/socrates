@@ -1,4 +1,4 @@
-/* Top banner */
+/* Top banner and menu */
 
 #stripes {
 	background-color: #ff9b00;
@@ -60,7 +60,7 @@
 	background: #ff6000;
 	height: 90px;
 	position: absolute;
-	margin-right: 15em;
+	margin-right: 12em;
 	background-image: linear-gradient(to right, #ff6000 5%, #ff9a00 30%, #ffb44d);
 }
 
@@ -74,3 +74,47 @@
 	background-image: linear-gradient(#ff6000,#ff9b00);
 }
 
+.region-main-menu {
+	margin-top: 110px;
+}
+.main-menu__item {
+	padding: 0 18px;
+	font-weight: 600;
+}
+
+.region.region-branding {
+	width: 100%;
+	top: 200px;
+	position: absolute;
+	margin-left: 65%;
+}
+
+.block-system-branding-block .logo {
+	max-width: 5rem;
+}
+
+.page-main {
+	margin-top: 70px;
+}
+
+
+/* colors and boxes */
+
+.view-opigno-calendar[class*="month"] td.single-day.single-day-active .inner, .view-opigno-calendar, .content-box, .fieldgroup {
+	-webkit-box-shadow: 0 0 6px rgba(122, 57, 0, 0.54);
+	box-shadow: 0 0 6px rgba(122, 57, 0, 0.54);
+}
+
+#add-first-entity:focus, #add-first-entity:hover, #folder-add-content-links .folder-add-content-link a.focus, #folder-add-content-links .folder-add-content-link a:focus, #folder-add-content-links .folder-add-content-link a:hover, #load-previous-messages:focus, #load-previous-messages:hover, .block-local_tasks_block ul a.focus, .block-local_tasks_block ul a:focus, .block-local_tasks_block ul a:hover, .btn.focus, .btn:focus, .btn:hover, .comment-comment-forum-form .focus.form-submit, .comment-comment-forum-form .form-submit:focus, .comment-comment-forum-form .form-submit:hover, .focus#add-first-entity, .focus#load-previous-messages, .focus.tabledrag-toggle-weight, .folder-menu-wrapper #tft-back-link:focus, .folder-menu-wrapper #tft-back-link:hover, .folder-menu-wrapper .focus#tft-back-link, .tabledrag-toggle-weight:focus, .tabledrag-toggle-weight:hover, .ui-dialog-buttonset .focus.form-submit, .ui-dialog-buttonset .form-submit:focus, .ui-dialog-buttonset .form-submit:hover, .view-opigno-calendar .content-box__info #today:focus, .view-opigno-calendar .content-box__info #today:hover, .view-opigno-calendar .content-box__info .focus#today, form #edit-delete:focus, form #edit-delete:hover, form #edit-unpublish:focus, form #edit-unpublish:hover, form .focus#edit-delete, form .focus#edit-unpublish, form .focus.form-submit, form .form-submit:focus, form .form-submit:hover {
+	background-color: #9893bb;
+	color: #030e36;
+}
+
+.btn-add a, #add-first-entity, #folder-add-content-links .folder-add-content-link a, #load-previous-messages, .btn-rounded, .comment-comment-forum-form .form-submit, .folder-menu-wrapper #tft-back-link, .tabledrag-toggle-weight, .ui-dialog-buttonset .form-submit, .view-opigno-calendar .content-box__info #today, form #edit-delete, form #edit-unpublish, form .form-submit {
+	border: 2px solid #0e006a;
+}
+
+.btn-add a:hover {
+	background: #ff8d00;
+	font-size: 0.6em;
+}
