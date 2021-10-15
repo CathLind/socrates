@@ -1,1 +1,13 @@
-
+:root {
+	--desktop-header-bg: #ff8e00;
+	--desktop-header-link: #fff;
+	--desktop-header-link-active: #0e006a;
+	--desktop-headings: #ff8e00;
+	--desktop-text: #0e006a;
+	--desktop-link: #0e006a;
+	--desktop-link-hover: #ff8e00;
+	--desktop-button-color: #ffdaab;
+	--desktop-button-color-hover-primary: #ffaa40;
+	--desktop-button-color-hover-secondary: #ffaa40;
+	--desktop-button-text-color: #0e006a;
+}
