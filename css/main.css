@@ -1,1 +1,76 @@
+/* Top banner */
+
+#stripes {
+	background-color: #ff9b00;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 300px;
+	background-image: linear-gradient(#ff6000,#ff9b00);
+	transform: skewY(-6deg);
+	transform-origin: top left;
+}
+
+#spanone {
+	width: 33.33333%;
+	width: calc(100% / 3);
+	left: -16.66666%;
+	left: calc(calc(calc(100% / 3) / 2) * -1);
+	background: #ff9400;
+	height: 190px;
+	position: absolute;
+	background-image: linear-gradient(#ff6000,#ff9b00);
+}
+
+#spantwo {
+	width: 33.33333%;
+	width: calc(100% / 3);
+	top: 0;
+	left: 16.66666%;
+	left: calc(calc(100% / 3) / 2);
+	right: auto;
+	background: #ff6000;
+	height: 190px;
+	position: absolute;
+	background-image: linear-gradient(#ff9b00,#ff6000);
+}
+
+#spanthree {
+	width: 33.33333%;
+	width: calc(100% / 3);
+	left: 49.99999%;
+	left: calc(calc(calc(100% / 3) / 2) + calc(100% / 3));
+	bottom: auto;
+	background: #fff640;
+	height: 190px;
+	position: absolute;
+	background-image: linear-gradient(#ff6000,#ff9b00);
+}
+
+#spanfour {
+	width: 33.33333%;
+	width: calc(100% / 4);
+	top: 380px;
+	top: calc(140px * 2);
+	right: -16.66666%;
+	right: calc(calc(calc(100% / 3) / 2) * -1);
+	background: #ff6000;
+	height: 90px;
+	position: absolute;
+	margin-right: 15em;
+	background-image: linear-gradient(to right, #ff6000 5%, #ff9a00 30%, #ffb44d);
+}
+
+#spanfive {
+	width: 33.33333%;
+	width: calc(100% / 3);
+	bottom: 0;
+	background: #ff6000;
+	height: 60px;
+	position: absolute;
+	background-image: linear-gradient(#ff6000,#ff9b00);
+}
 
