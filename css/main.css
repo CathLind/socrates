@@ -118,3 +118,13 @@
 	background: #ff8d00;
 	font-size: 0.6em;
 }
+
+.form-textarea {
+	background: #fff9f5;
+	border: 1px solid #f0dcd1;
+}
+
+/* textblock */
+#block-socrates-pagetitle {
+	margin-top: 60px;
+}
