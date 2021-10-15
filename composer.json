@@ -1,0 +1,21 @@
+{
+  "name": "socrates/socrates",
+  "type": "drupal-custom-theme",
+  "license": "GPL-2.0-or-later",
+  "description": "The main theme for the inkopsforum site",
+  "homepage": "https://github.com/CathLind/socrates",
+  "authors": [
+    {
+      "name": "Catharina Lind (cathlind)",
+      "homepage": "https://github.com/CathLind",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/CathLind/socrates/issues",
+    "source": "https://github.com/CathLind/socrates"
+  },
+  "require": {
+    "drupal/core": "^9 || ^10"
+  }
+}
