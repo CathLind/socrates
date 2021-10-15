@@ -1,0 +1,31 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the socrates theme.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Template\Attribute;
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter().
+ */
+ 
+global $base_url;
+$theme_root = $base_url.'/'.drupal_get_path('theme','socrates');
+
+function socrates_theme_suggestions_block_alter(&$suggestions, $variables) {
+    //Override Block Type
+	$content = $variables['elements']['content'];
+	if (isset($content['#block_content']) && $content['#block_content'] instanceof \Drupal\block_content\BlockContentInterface) {
+		$suggestions[] = 'block__' . $content['#block_content']->bundle();
+	}
+}
+
+function socrates_theme_suggestions_page_alter(array &$suggestions, array $variables) {
+  // Add content type suggestions.
+  if ($node = \Drupal::request()->attributes->get('node')) {
+    array_splice($suggestions, 1, 0, 'page__' . $node->getType());
+  }
+}
