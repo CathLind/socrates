@@ -134,3 +134,15 @@
 li, ul li {
 	list-style-type: none;
 }
+
+#block-socrates-tabs ul li {
+	float: left;
+	padding-right: 20px;
+}
+
+#taxonomy-overview-terms {
+	clear: left;
+	padding-top: 20px;
+}
+
+
