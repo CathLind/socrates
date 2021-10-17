@@ -128,3 +128,9 @@
 #block-socrates-pagetitle {
 	margin-top: 60px;
 }
+
+
+/*Remove bullet from list */
+li, ul li {
+	list-style-type: none;
+}
