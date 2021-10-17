@@ -146,4 +146,7 @@ li, ul li {
 	padding-top: 20px;
 }
 
-
+/*interface corrections */
+.field-weight.form-text {
+	width: 100px;
+}
