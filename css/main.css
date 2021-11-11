@@ -167,3 +167,46 @@ li, ul li {
 	font-size: 12px;
 	font-weight: normal;
 }
+
+
+.login-container #block-socrates-sitebranding {
+    margin-top: 0px;
+    max-width: 26.625rem;
+    position: relative;
+    padding: 0 1.25rem;
+}
+
+#block-socrates-sitebranding img {
+    min-width: 150px;
+}
+
+.login-container .main-menu .hem::before {
+	font-family: uicons-regular-rounded;
+	font-style: normal;
+	font-weight: 400;
+	font-variant: normal;
+	display: block;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.login-container .main-menu .hem {
+	color: var(--desktop-header-link);
+	font-size: 2.375rem;
+}
+
+.fi-rr-home::before, .login-container .main-menu .hem::before {
+	content: "\f1a3";
+}
+
+.image-row {
+    margin-top: 25px;
+}
+
+.image-row:nth-child(even) {
+    margin-left: -170px;
+    margin-top: -40px;
+}
+
