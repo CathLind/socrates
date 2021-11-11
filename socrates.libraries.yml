@@ -7,6 +7,7 @@ global:
       css/base/paragraphs.css: {}
       color/color.css: {}
       css/main.css: {}
+      css/hover.css: {}
   js:
     js/main.js: {}
   dependencies:
