@@ -101,8 +101,8 @@
 /* colors and boxes */
 
 .view-opigno-calendar[class*="month"] td.single-day.single-day-active .inner, .view-opigno-calendar, .content-box, .fieldgroup {
-	-webkit-box-shadow: 0 0 6px rgba(122, 57, 0, 0.54);
-	box-shadow: 0 0 6px rgba(122, 57, 0, 0.54);
+	-webkit-box-shadow: 0 0 6px rgb(255, 142, 0);
+	box-shadow: 0 0 6px rgb(255, 142, 0);
 }
 
 #add-first-entity:focus, #add-first-entity:hover, #folder-add-content-links .folder-add-content-link a.focus, #folder-add-content-links .folder-add-content-link a:focus, #folder-add-content-links .folder-add-content-link a:hover, #load-previous-messages:focus, #load-previous-messages:hover, .block-local_tasks_block ul a.focus, .block-local_tasks_block ul a:focus, .block-local_tasks_block ul a:hover, .btn.focus, .btn:focus, .btn:hover, .comment-comment-forum-form .focus.form-submit, .comment-comment-forum-form .form-submit:focus, .comment-comment-forum-form .form-submit:hover, .focus#add-first-entity, .focus#load-previous-messages, .focus.tabledrag-toggle-weight, .folder-menu-wrapper #tft-back-link:focus, .folder-menu-wrapper #tft-back-link:hover, .folder-menu-wrapper .focus#tft-back-link, .tabledrag-toggle-weight:focus, .tabledrag-toggle-weight:hover, .ui-dialog-buttonset .focus.form-submit, .ui-dialog-buttonset .form-submit:focus, .ui-dialog-buttonset .form-submit:hover, .view-opigno-calendar .content-box__info #today:focus, .view-opigno-calendar .content-box__info #today:hover, .view-opigno-calendar .content-box__info .focus#today, form #edit-delete:focus, form #edit-delete:hover, form #edit-unpublish:focus, form #edit-unpublish:hover, form .focus#edit-delete, form .focus#edit-unpublish, form .focus.form-submit, form .form-submit:focus, form .form-submit:hover {
@@ -210,3 +210,90 @@ li, ul li {
     margin-top: -40px;
 }
 
+.login-container .main-menu .butiken::before {
+	font-family: uicons-regular-rounded;
+	font-style: normal;
+	font-weight: 400;
+	font-variant: normal;
+	display: block;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.fi-rr-book-alt:before, .login-container .main-menu .butiken:before {
+    content: "fi fi-rr-shop";
+    margin-left: -8px;
+}
+
+.login-container .main-menu .butiken {
+    color: var(--desktop-header-link);
+    font-size: 2.375rem;
+}
+
+h4 {
+    font-size: 0.7em;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 10px;
+}
+
+.login-container .switch-link-bottom {
+    position: absolute;
+    right: 12.875rem;
+    bottom: 9.875rem;
+    em: ;
+}
+
+div#sidebar_second {
+    border-left: 3px solid orange;
+    padding-left: 10px;
+}
+
+.user-login-form label {
+    display: none;
+}
+
+.valkommen {
+    width: 40%;
+    float: left;
+}
+
+.form-wrapper.user-login {
+    width: 55%;
+    float: left;
+	margin-left: 20px;
+}
+
+input#edit-submit {
+    margin-top: 20px;
+}
+
+.menu-innehall .link-text {
+	display: none;
+}
+
+.menu-innehall a {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background: var(--desktop-header-bg);
+	border-radius: 50%;
+	color: var(--desktop-header-link);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	overflow: hidden;
+	height: 50px;
+	width: 50px;
+	float: left;
+	margin: 5px;
+}
+
+.menu-innehall .svg-inline--fa {
+	font-size: 1.6em;
+}
