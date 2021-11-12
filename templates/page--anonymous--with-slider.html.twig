@@ -13,13 +13,21 @@
       <div id="user-sidebar">
         {{ page.menu }}
 
+        {% block valkommen %}
+		  <div class="valkommen">
+            <h4>Vi bygger en värld av kunskap</h4>
+            <p>Under de 25 år InköpsForum har funnits har vi samlat på oss kunskap i olika former. Nu börjar vi publicera den. Bakom väggen hittar du både material och gemenskapen med andra inköpare. </p>
+            <p>Välkommen! Gå på upptäcksfärd, det kostar ingenting.</p>
+		  </div>
+        {% endblock %}
+
         {% block content %}
-        <div class="form-wrapper user-login" data-target="{{ path('user.login') }}"
+        <div class="form-wrapper user-login content-box" data-target="{{ path('user.login') }}"
           {% if route_name == 'user.pass' or route_name == 'user.register' %}style="display: none;"{% endif %}>
-          <h3>{{ 'LOGGA IN PÅ INKÖPSFORUM'|t }}</h3>
+          <h4>{{ 'LOGGA IN PÅ INKÖPSFORUM'|t }}</h4>
           {{ login_form }}
 
-          <div class="status_messages">
+  <div class="status_messages">
             {{ page.status_messages }}
           </div>
 
@@ -43,18 +51,19 @@
           </div>
 
           {{ password_form }}
-
-          <div class="status_messages">
-            {{ page.status_messages }}
-          </div>
-
-          <div class="switch-link switch-link-bottom text-center">
+          
+           <div class="switch-link switch-link-bottom text-center">
             <div><a href="{{ path('user.login') }}">{{ 'Login'|t }}</a></div>
 
             {% if register != 'admin_only' %}
               <div><a href="{{ path('user.register') }}">{{ 'Create new account'|t }}</a></div>
             {% endif %}
           </div>
+
+          <div class="status_messages">
+            {{ page.status_messages }}
+          </div>
+
         </div>
 
         {% if register != 'admin_only' %}
@@ -76,6 +85,7 @@
         {% endif %}
         {% endblock %}
 
+        
 		<div id="footer-block">
           {{ page.footer_first }}
           {{ page.footer_second }}
@@ -85,6 +95,9 @@
         <div id="footer">
           {{ page.footer }}
         </div>
+      </div>
+      <div id="sidebar_second">
+        {{ drupal_view('annonser', 'block_1') }}
       </div>
     </div>
   </div>
