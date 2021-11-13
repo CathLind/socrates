@@ -161,7 +161,7 @@ li, ul li {
 	cursor: pointer;
 	transition: color 0.5s ease;
 	text-decoration: none;
-	color: #000;
+	color: #fff;
 	border-bottom: none;
 	font-family: "Lucida Grande","Lucida Sans Unicode","liberation sans",sans-serif;
 	font-size: 12px;
@@ -201,8 +201,18 @@ li, ul li {
 	content: "\f1a3";
 }
 
-.image-row {
+.image-row:nth-child(1) {
     margin-top: 25px;
+}
+
+.image-row:nth-child(3) {
+    margin-top: -38px;
+}
+
+.image-row:nth-child(4) {
+    margin-left: -170px;
+    margin-top: -40px;
+    padding-bottom: 40px;
 }
 
 .image-row:nth-child(even) {
@@ -240,10 +250,9 @@ h4 {
 }
 
 .login-container .switch-link-bottom {
-    position: absolute;
-    right: 12.875rem;
-    bottom: 9.875rem;
-    em: ;
+    position: relative;
+    float: right;
+    padding-top: 20px;
 }
 
 div#sidebar_second {
@@ -297,3 +306,95 @@ input#edit-submit {
 .menu-innehall .svg-inline--fa {
 	font-size: 1.6em;
 }
+
+/* Artikelsidan */
+.paragraph--type--bild img {
+	Float: left;
+	border: 1px solid black;
+	padding: 10px;
+	width: 350px;
+	margin-right: 20px;
+}
+
+.paragraph--type--citat p {
+	font-size: 2em;
+	font-weight: bolder;
+	color: orange;
+}
+
+.paragraph--type--citat::before {
+	margin-right: 0.2em;
+	content: "\201C";
+	vertical-align: -0.4em;
+	color: green;
+	font-size: 3em;
+	line-height: 0.1em;
+	margin-left: -0.5em;
+}
+
+.paragraph--type--citat::after {
+	content: "\201D";
+	vertical-align: -0.45em;
+	color: green;
+	font-size: 3em;
+	line-height: 0.1em;
+	float: right;
+}
+
+.paragraph.paragraph--type--citat {
+	float: right;
+	width: 40%;
+	padding: 20px;
+	margin: 10px;
+}
+
+.layout-content {
+	margin: 170px 30px 30px 30px;
+}
+
+/* Produktsidorna */
+
+.product--variation-field--variation_price__1 {
+	font-size: 2.5em;
+	font-weight: bolder;
+	color: #11008b;
+}
+
+.layout__region.layout__region--second {
+	padding: 20px;
+}
+
+.tabs__tab {
+	background-color: orange;
+	padding: 10px;
+	float: left;
+	border-radius: 20px;
+	margin: 10px;
+	color: white;
+}
+
+.tab-content {
+	margin-top: 80px;
+}
+
+.tab-content {
+	clear: both;
+	padding-top: 30px;
+}
+
+.tab-content li, .tab-content ul li {
+	list-style-type: square;
+}
+
+.main-menu li {
+	list-style-type: none;
+}
+
+.tab-content {
+	border-bottom: 1px solid black;
+}
+
+.layout--threecol-section--33-34-33 .layout__region.layout__region--second {
+	padding: 0px;
+}
+
