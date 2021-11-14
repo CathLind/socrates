@@ -354,10 +354,29 @@ input#edit-submit {
 
 /* Produktsidorna */
 
-.product--variation-field--variation_price__1 {
+.product--variation-field--variation_price__1 ,
+.product--variation-field--variation_price__2, 
+.product--variation-field--variation_price__3, 
+.product--variation-field--variation_price__4 {
 	font-size: 2.5em;
 	font-weight: bolder;
 	color: #11008b;
+}
+
+.form-actions {
+	padding-bottom: 30px;
+}
+
+#edit-purchased-entity-0-target-id {
+	display: none;
+}
+
+.layout--fourcol-section .layout__region.layout__region--second {
+	padding: 0px;
+}
+
+.views-view-grid .views-col {
+	max-width: 25%;
 }
 
 .layout__region.layout__region--second {
@@ -398,3 +417,54 @@ input#edit-submit {
 	padding: 0px;
 }
 
+.kursannonser {
+    float: right;
+    margin-top: -187px;
+    transform: rotate(15deg);
+    width: 130px;
+}
+
+.pager {
+	clear: both;
+}
+
+nav {
+	clear: both;
+}
+
+#drupal-modal .views-messages {
+	display: none;
+}
+
+.leftsec {
+	float: left;
+	width: 65%;
+}
+
+.layout-sidebar-second.col-4 {
+	float: left;
+	width: 30%;
+}
+
+.two-grid-annons {
+	width: 100%;
+	margin-top: 150px;
+}
+
+.two-grid-annons .views-col {
+	max-width: 100%;
+}
+
+.two-grid-annons .ih-item.square {
+	width: 170px;
+	margin-bottom: 20px;
+}
+
+.col-lg-12 .layout-content {
+	margin-top: 30px;
+}
+
+.bocker-butiken img {
+	border: 1px solid gray;
+	padding: 5px;
+}
