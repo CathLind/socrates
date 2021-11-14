@@ -62,8 +62,14 @@
   <main role="main">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
+    
+    {% if page.sidebar_second %}
+    <div class="layout-content col-8 leftsec">
+    {% else %}
     <div class="layout-content">
-      {{ page.content }}
+    {% endif %}
+    
+    {{ page.content }}
     </div>{# /.layout-content #}
 
     {% if page.sidebar_first %}
@@ -73,7 +79,7 @@
     {% endif %}
 
     {% if page.sidebar_second %}
-      <aside class="layout-sidebar-second" role="complementary">
+      <aside class="layout-sidebar-second col-4" role="complementary">
         {{ page.sidebar_second }}
       </aside>
     {% endif %}
