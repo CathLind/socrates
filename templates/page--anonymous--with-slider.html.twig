@@ -6,11 +6,11 @@
 
     <div class="left-col">
       {{ page.content }}
-	   
     </div>
 
     <div class="right-col">
-      <div id="user-sidebar">
+	  <div id="user-sidebar">
+      	   {{ drupal_view('annonser', 'block_2') }}
         {{ page.menu }}
 
         {% block valkommen %}
