@@ -468,3 +468,8 @@ nav {
 	border: 1px solid gray;
 	padding: 5px;
 }
+
+.layout.layout--threecol-section.layout--threecol-section--25-50-25 {
+	clear: both;
+	padding-top: 5px;
+}
